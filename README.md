@@ -6,7 +6,7 @@ Centrality has many definitions. Each definition gives scores to nodes in differ
 We will implement three centrality metrics on undirected connected graphs. we will implement 3 algrothims for centerlaity:
 ## 1. Degree Centrality
 Degree centrality is the simplest centrality measure to compute. Recall that a node's degree is simply a count of how many social connections (i.e., edges) it has. The degree centrality for a node is simply its degree. A node with 10 social connections would have a degree centrality of 10. A node with 1 edge would have a degree centrality of 1.
-## 2. Closeness centrality
+## 2. Closeness Centrality
 Closeness centrality indicates how close a node is to all other nodes in the network. It is calculated as the average of the shortest path length from the node to every other node in the network.\
 For a node x and a graph of N connected nodes, The centrality C(x) is defined as:\
 C(x)= (N-1)/Σ d(y,x)\
